@@ -25,7 +25,7 @@ RUN composer dump-autoload --optimize
 RUN php artisan cache:clear
 
 # Expose port
-EXPOSE 9000
+EXPOSE 8000
 
 # Start PHP-FPM server
 CMD ["php-fpm"]

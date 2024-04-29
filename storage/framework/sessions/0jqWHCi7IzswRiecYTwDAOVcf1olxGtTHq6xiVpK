@@ -1,0 +1,183 @@
+a:4:{s:6:"_token";s:40:"o0fGLkAzaEUP1XC0Ta2sJZJFvMMpDl3YH1I6d365";s:7:"message";a:3:{s:6:"status";s:7:"success";s:7:"message";s:44:"Application has been successfully installed.";s:11:"dbOutputLog";s:13391:"
+   INFO  Preparing database.  
+
+  Creating migration table ......................................... 17ms DONE
+
+   INFO  Running migrations.  
+
+  2014_10_12_000000_create_users_table ............................. 11ms DONE
+  2014_10_12_100000_create_password_resets_table ................... 21ms DONE
+  2019_08_19_000000_create_failed_jobs_table ....................... 10ms DONE
+  2019_09_22_192348_create_messages_table ........................... 9ms DONE
+  2019_10_16_211433_create_favorites_table ......................... 10ms DONE
+  2019_10_18_223259_add_avatar_to_users ............................. 1ms DONE
+  2019_10_20_211056_add_messenger_color_to_users .................... 1ms DONE
+  2019_10_22_000539_add_dark_mode_to_users .......................... 1ms DONE
+  2019_10_25_214038_add_active_status_to_users ...................... 1ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table ............ 29ms DONE
+  2020_05_21_065337_create_permission_tables ...................... 216ms DONE
+  2020_06_11_043457_create_lead_stages_table ....................... 11ms DONE
+  2020_06_11_045733_create_project_stages_table .................... 11ms DONE
+  2020_06_11_062935_create_labels_table ............................ 10ms DONE
+  2020_06_11_063228_create_categories_table ........................ 13ms DONE
+  2020_06_11_063253_create_units_table .............................. 9ms DONE
+  2020_06_11_063312_create_departments_table ....................... 10ms DONE
+  2020_06_11_063337_create_designations_table ....................... 9ms DONE
+  2020_06_11_063355_create_tax_rates_table ......................... 11ms DONE
+  2020_06_11_063415_create_payment_methods_table ................... 10ms DONE
+  2020_06_11_122613_create_settings_table .......................... 20ms DONE
+  2020_06_12_052754_create_employees_table ......................... 13ms DONE
+  2020_06_12_111648_create_items_table ............................. 10ms DONE
+  2020_06_12_131904_create_proposals_table ......................... 10ms DONE
+  2020_06_13_051013_create_estimates_table ......................... 10ms DONE
+  2020_06_13_060829_create_credit_notes_table ...................... 11ms DONE
+  2020_06_13_063323_create_debit_notes_table ....................... 10ms DONE
+  2020_06_15_031814_create_bills_table ............................. 10ms DONE
+  2020_06_15_103935_create_goals_table .............................. 9ms DONE
+  2020_06_17_104634_create_clients_table ........................... 12ms DONE
+  2020_06_18_044409_create_salary_types_table ....................... 9ms DONE
+  2020_06_18_083804_create_attendances_table ....................... 10ms DONE
+  2020_06_18_094535_create_holidays_table .......................... 10ms DONE
+  2020_06_18_102912_create_leaves_table ............................ 13ms DONE
+  2020_06_18_103947_create_leave_types_table ....................... 10ms DONE
+  2020_06_18_122730_create_meetings_table .......................... 11ms DONE
+  2020_06_19_042159_create_leads_table ............................. 24ms DONE
+  2020_06_19_062448_create_pipelines_table .......................... 9ms DONE
+  2020_06_19_084349_create_sources_table ........................... 10ms DONE
+  2020_06_19_114831_create_user_leads_table ........................ 73ms DONE
+  2020_06_22_070804_create_lead_files_table ........................ 40ms DONE
+  2020_06_22_094420_create_activity_logs_table ..................... 10ms DONE
+  2020_06_22_094850_create_lead_activity_logs_table ................ 10ms DONE
+  2020_06_22_104404_create_lead_discussions_table .................. 38ms DONE
+  2020_06_22_112253_create_lead_calls_table ........................ 41ms DONE
+  2020_06_22_115623_create_lead_emails_table ....................... 39ms DONE
+  2020_06_23_040833_create_deals_table ............................. 10ms DONE
+  2020_06_23_044037_create_deal_stages_table ....................... 12ms DONE
+  2020_06_23_051921_create_user_deals_table ........................ 69ms DONE
+  2020_06_23_054902_create_client_deals_table ...................... 68ms DONE
+  2020_06_23_091224_create_deal_files_table ........................ 37ms DONE
+  2020_06_23_094259_create_deal_tasks_table ........................ 39ms DONE
+  2020_06_23_112902_create_deal_discussions_table ................. 145ms DONE
+  2020_06_23_114047_create_deal_calls_table ........................ 46ms DONE
+  2020_06_23_120112_create_deal_emails_table ....................... 41ms DONE
+  2020_06_23_123000_create_invoices_table .......................... 11ms DONE
+  2020_06_24_101051_create_estimate_products_table ................. 10ms DONE
+  2020_06_25_113024_create_project_users_table ..................... 10ms DONE
+  2020_06_25_114544_create_projects_table .......................... 43ms DONE
+  2020_06_26_065206_create_project_activity_logs_table .............. 9ms DONE
+  2020_06_26_095430_create_project_tasks_table ..................... 11ms DONE
+  2020_06_27_050839_create_project_task_check_lists_table .......... 11ms DONE
+  2020_06_27_064301_create_project_task_comments_table ............. 10ms DONE
+  2020_06_27_065353_create_project_task_files_table ................. 8ms DONE
+  2020_06_27_070959_create_project_milestones_table ................. 9ms DONE
+  2020_06_29_043657_create_project_notes_table ..................... 10ms DONE
+  2020_06_29_051459_create_project_files_table ...................... 8ms DONE
+  2020_06_29_065220_create_project_comments_table ................... 9ms DONE
+  2020_06_29_102515_create_project_client_feedback_table ........... 10ms DONE
+  2020_06_29_110925_create_timesheets_table ........................ 12ms DONE
+  2020_07_15_035613_create_invoice_products_table .................. 10ms DONE
+  2020_07_16_070801_create_invoice_payments_table .................. 10ms DONE
+  2020_07_17_073533_create_payments_table .......................... 14ms DONE
+  2020_07_17_124145_create_expenses_table .......................... 10ms DONE
+  2020_07_18_054159_create_contracts_table .......................... 9ms DONE
+  2020_07_18_054550_create_contract_types_table .................... 11ms DONE
+  2020_07_18_065859_create_messageses_table ......................... 0ms DONE
+  2020_07_20_062056_create_notice_boards_table ...................... 9ms DONE
+  2020_07_20_102802_create_notes_table ............................. 11ms DONE
+  2020_07_21_040345_create_events_table ............................. 9ms DONE
+  2020_07_25_034940_create_supports_table .......................... 13ms DONE
+  2020_07_28_042043_create_support_replies_table .................... 9ms DONE
+  2020_07_28_100808_create_plans_table .............................. 9ms DONE
+  2020_07_29_035024_create_orders_table ............................ 20ms DONE
+  2020_07_29_052408_create_coupons_table ........................... 10ms DONE
+  2020_07_29_052610_create_user_coupons_table ....................... 8ms DONE
+  2020_08_11_043201_create_awards_table ............................ 10ms DONE
+  2020_08_11_043841_create_assets_table ............................ 12ms DONE
+  2020_08_11_050153_create_document_uploads_table .................. 10ms DONE
+  2020_08_11_054745_create_company_policies_table .................. 10ms DONE
+  2020_08_11_062553_create_award_types_table ....................... 12ms DONE
+  2020_08_11_070948_create_transfers_table .......................... 8ms DONE
+  2020_08_11_100136_create_resignations_table ...................... 10ms DONE
+  2020_08_11_103338_create_trips_table ............................. 10ms DONE
+  2020_08_11_105429_create_promotions_table ........................ 12ms DONE
+  2020_08_11_111035_create_complaints_table ......................... 8ms DONE
+  2020_08_11_124506_create_warnings_table .......................... 10ms DONE
+  2020_08_11_132308_create_terminations_table ...................... 10ms DONE
+  2020_08_11_132632_create_termination_types_table ................. 11ms DONE
+  2020_08_12_031154_create_indicators_table ........................ 12ms DONE
+  2020_08_12_034701_create_appraisals_table ......................... 9ms DONE
+  2020_08_12_044559_create_training_types_table .................... 10ms DONE
+  2020_08_12_045805_create_trainings_table .......................... 9ms DONE
+  2020_08_12_050551_create_trainers_table ........................... 8ms DONE
+  2020_08_18_130112_create_form_fields_table ........................ 9ms DONE
+  2020_08_18_130220_create_form_field_responses_table .............. 10ms DONE
+  2020_08_18_130245_create_form_responses_table .................... 10ms DONE
+  2020_10_10_031439_create_email_templates_table ................... 10ms DONE
+  2020_10_10_033656_create_email_template_langs_table .............. 10ms DONE
+  2020_10_10_033739_create_user_email_templates_table ............... 8ms DONE
+  2021_01_11_062508_create_chart_of_accounts_table ................. 11ms DONE
+  2021_01_11_070441_create_chart_of_account_types_table ............. 9ms DONE
+  2021_01_12_032834_create_journal_entries_table ................... 11ms DONE
+  2021_01_12_033815_create_journal_items_table ...................... 9ms DONE
+  2021_01_20_072219_create_chart_of_account_sub_types_table ........ 10ms DONE
+  2021_02_16_093425_create_user_defualt_views_table ................ 10ms DONE
+  2021_02_24_100845_create_project_task_timers_table ............... 12ms DONE
+  2021_03_06_093110_create_form_builders_table ..................... 20ms DONE
+  2021_07_02_093118_admin_payment_setting .......................... 24ms DONE
+  2021_07_02_160426_company_payment_settings ....................... 72ms DONE
+  2021_08_20_084119_create_competencies_table ...................... 10ms DONE
+  2021_09_10_165514_create_plan_requests_table ..................... 11ms DONE
+  2021_10_20_045454_create_branches_table ........................... 9ms DONE
+  2021_10_29_043253_create_goal_types_table ......................... 9ms DONE
+  2021_10_29_043454_create_goal_trackings_table .................... 12ms DONE
+  2021_11_25_035600_create_performance_types_table .................. 9ms DONE
+  2021_12_20_042721_create_budgets_table ............................ 9ms DONE
+  2021_12_23_062859_create_time_trackers_table ...................... 9ms DONE
+  2021_12_23_063028_create_track_photos_table ...................... 12ms DONE
+  2021_12_25_065526_create_zoommeetings_table ....................... 9ms DONE
+  2022_03_25_094526_create_stock_reports_table ...................... 9ms DONE
+  2022_07_21_033939_create_contract_attachment_table ............... 10ms DONE
+  2022_07_21_034802_create_contract_comment_table .................. 11ms DONE
+  2022_07_21_034957_create_contract_notes_table ..................... 9ms DONE
+  2023_04_26_094439_create_webhook_settings_table .................. 10ms DONE
+  2023_05_04_051526_create_notification_templates_table ............ 14ms DONE
+  2023_05_04_052313_create_notification_template_langs_table ....... 10ms DONE
+  2023_05_16_094637_create_login_details_table ...................... 9ms DONE
+  2023_05_30_041632_create_invoice_bank_transfers_table ............ 19ms DONE
+  2023_06_05_043450_create_landing_page_settings_table ............. 47ms DONE
+  2023_06_09_063546_create_templates_table ......................... 10ms DONE
+  2023_06_10_114031_create_join_us_table ........................... 38ms DONE
+  2023_07_05_091727_create_languages_table .......................... 9ms DONE
+  2023_12_14_094915_add_is_disable_users_table ...................... 4ms DONE
+  2024_01_22_160730_add_trial_days_to_plans_table ................... 5ms DONE
+  2024_01_22_162407_add_trial_expire_date_to_users_table ............ 8ms DONE
+  2024_01_26_154424_add_is_enable_login_to_users_table .............. 6ms DONE
+  2024_01_27_143316_add_edit_password_to_users_table .............. 100ms DONE
+  2024_01_29_144020_add_is_active_to_plans_table .................... 7ms DONE
+  2024_01_30_092751_add_is_refund_to_orders_table ................... 7ms DONE
+  2024_01_30_104425_change_price_to_plans_table .................... 50ms DONE
+  2024_03_22_173740_create_referral_program_table .................. 12ms DONE
+  2024_03_27_111101_add_referral_fields_to_users_table .............. 4ms DONE
+  2024_03_28_090823_create_transactions_table ...................... 10ms DONE
+  2024_03_28_104307_add_uid_to_transactions_table ................... 4ms DONE
+  2024_03_28_172220_create_payouts_table ........................... 11ms DONE
+  2024_03_29_110105_add_refercode_to_payouts_table .................. 5ms DONE
+  2024_03_29_141815_change_hold_amount_to_float_in_referral_programs  52ms DONE
+  2024_04_10_125054_add_referral_enabled_to_referral_programs_table . 5ms DONE
+
+
+   INFO  Seeding database.  
+
+  Database\Seeders\PlansTableSeeder .................................. RUNNING  
+  Database\Seeders\PlansTableSeeder ................................ 4 ms DONE  
+
+  Database\Seeders\UsersTableSeeder .................................. RUNNING  
+  Database\Seeders\UsersTableSeeder ............................ 1,415 ms DONE  
+
+  Database\Seeders\NotificationSeeder ................................ RUNNING  
+  Database\Seeders\NotificationSeeder ............................ 923 ms DONE  
+
+  Database\Seeders\AiTemplateSeeder .................................. RUNNING  
+  Database\Seeders\AiTemplateSeeder ................................ 9 ms DONE  
+
+";}s:6:"_flash";a:2:{s:3:"new";a:0:{}s:3:"old";a:1:{i:0;s:7:"message";}}s:9:"_previous";a:1:{s:3:"url";s:38:"http://localhost:8000/install/database";}}
